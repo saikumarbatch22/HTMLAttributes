@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--HTML ATTRIBUTES:
+        ATTRIBUTES ARE ANOTHER IMPORTANT PART OF HTML MARKUP
+        An Attribute is used to define the characteristics of an element and is
+        placed inside the elemtns opening tag. All attributes are mode up of
+        two parts a name and a value.
+
+        Name: is the property we want to set. for ex
+        the <font> element in the face is attribute with arital type face
+        value here is airal.
+
+        HTML tags have a unique set of their own attributes. Those will describe th page
+
+        <marquee direction="right">
+
+        Core Attributes:
+        id
+        title
+        class
+        style
+        These 4 attributes can be used on the majority of HTML elements.
+
+        ID attribute:
+        The ID attribute can be used to uniquely identify  any element with in a page.
+        There are two primary reasons that we might want to use an id
+        attribute on an HTML element.
+
+        if an elements carries an ID attribute as a  unique identifier it is possible to identify
+        just that element and its content.
+
+        if we have two elements with same name with in a web page(or stylesheet)
+        we can use ID attribute to distinguish between elements that  have the
+        same name.
+
+        The Title attribute:The title attribute gives a suggested title for
+        the element. They syntax for the title attribute is similar as
+        explained for id attribute.
+
+        The behaviour of this attribute will depend upon the element that carries it
+        often displayed as a tooltip while loading.
+
+        class attribute:
+        the class attribute is used to associate an element with a style sheet, and
+        specifies the class of element.
+        we learn more about classes under css part.
+
+        style attribute:
+        the style attribute allows to specify css rules with in the element.
+
+        The dir attribute:
+        it allos us to indicate to the browser the direction in which text should flow.
+        The dir attribute take one of two values as we know/
+        ltr:left to right(the default value)
+        trl:right to left.
+
+        Generic Attributes:
+        Attribute               options:
+        align                   right,left,center
+        valign                  top,middle,botton
+        bgcolor                 hexidecimal ,rgb values
+        background              url
+        id                      userdefiend
+        class                   userdefined
+        width                   numeric value
+        <title>                 user defiend
+
+        HTML comment tag.
+        Comments are non executable statements.
+        
+
+        Presentation tags:
+        if user want to read what we have written then struturing our text is more important.
+
+        bold      <b>  </b>
+        italic    <i>   </i>
+                  <strong></strong>
+                   <em></em>
+
+        striking effect   <s></s>
+        del           <del></del>
+        underline     <u></u>
+        subscript   <sub></sub>
+        superscript  <sup></sup>
+
+        Create Line Breaks:
+        THe <br/> elements:
+        if we use <br/> element anything following it starts on the next line.
+        This tag is an example of an empty tag where we dont have attributes.
+
+
+        The div and span elements: 
+        The <div> and <span>elements allow us to group together 
+        several elemtns to create sections or subsections of a page.
+
+        For Ex:we can put all of the footnotes on apage with in <div> elements to
+        indicate that all of the elements within that <div> elements relate to the footnotes.
+        then we can attach some styles to the <div> elements so that 
+        they appeat using special set of styles.   
+
+        BlockLevel Elements:
+        Block level elements appear on the screen as if they have a carriage return or line break
+        before and after the,.
+        for ex:
+        <p>,<h1>,<h2>,<h3>,<ul>,<ol>,<dl>,<hr/>
+
+        Inine Element:
+        inline elements on the other hand can appear with in the sentences 
+        and do not have to appear on a new line of their own.
+        ex:<b>,<i>,<u>,<em>,<strong>,<sub>,<sup>,<li>,<del>.
+
+        HTML images:
+        Images are very important to a page 
+        <img>
+        Attriubute:
+        src=where is the location of image.
+        width:sets width of the image.
+        heigth:height of the image.
+        border:sets border around the image.
+        alt:alternate text which will displayed if image is missing.
+
+
+        -->
+    <img src="Images/Rose.jpg" alt="roseflower" height="90px" width="90px" />0
+    <div id="menu" align="center">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+
+    </div>
+    <div id="content" align="left" style="background-color:white">
+        <h5>Content Articles</h5>
+        <p>Main Content Goes here...</p>
+    </div>
+    <p id="name" title="parafirst" class="mycss" style="background-color:aqua">WELCOME </p>
+    <p>New Line</p>
+    <p align="left">Welcome to <b>HTML</b></p>
+    <p align="center"><i>New Line </i> is added</p>
+    <p align="right">Water formula is H<sub>2</sub>0</p>
+    <p>X<sup>2</sup></p>
+    <p>We have <del>deleted</del> the text</p>
+    <p><u>Element are Important for</u> <strong>HTML</strong></p>
+    <font face="airal" color="#cc0000"></font>
+</body>
+</html>
