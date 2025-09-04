@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="RegisterStyles.css" />
+
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+   <h1>Registration</h1>
+    
+   <form>
+       <!--Purpose of div tag in html form:
+         The <div>
+    tag is a block-level container used to group elements for styling or layout purposes.
+           Div tags help organize the form into sections, making it easier to apply CSS styles and manage layout.
+           Each div can contain a label and its corresponding input field, allowing for better control over spacing and alignment.
+           Div tags also enhance the readability of the HTML code by clearly separating different parts of the form.
+           Div tags can be styled individually or collectively using CSS, providing flexibility in design.
+           Div tags do not inherently affect the functionality of the form but improve its structure and appearance.
+           Div tags are semantically neutral, meaning they do not convey any specific meaning about the content they contain.
+
+           Non Semantic elements like <div> are useful for layout and styling purposes.
+           Div tags consits of opening and closing tags: <div> and </div>.
+           under div tag we can use other html elements like label, input, textarea, select etc.
+           sectioning of form using div tags is a good practice for better readability and maintainability of code.
+
+           Form tag is used to create an HTML form for user input.
+              The form element can contain various input elements like text fields, checkboxes, radio buttons, submit buttons etc.
+              The form element can also contain other HTML elements like div, span, p etc.
+                The form element can be styled using CSS to improve its appearance.
+                The form element can be used to collect user input and send it to a server for processing.
+
+           Span tag is an inline container used to mark up a part of a text, or a part of a document.
+              Span tags are often used to apply styles or classes to a specific portion of text within a larger block of text.
+                Span tags do not inherently affect the layout or structure of the document, but they can be styled using CSS.
+                Span tags are useful for applying styles to small sections of text without affecting the surrounding content.
+                Span tags can be nested within other HTML elements, including div tags.
+
+           -->
+       <div>
+           <label for="fname">First Name:</label>
+           <input type="text" id="fname" name="fname"><br><br>
+       </div>
+       <div>
+           <label for="lname">Last Name:</label>
+           <input type="text" id="lname" name="lname"><br><br>
+       </div>
+       <div>
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email"><br><br>
+       </div>
+       <div>
+           <label for="password">Password:</label>
+           <input type="password" id="password" name="password"><br><br>
+       </div>
+       <div>
+           <label for="dob">Date of Birth:</label>
+           <input type="date" id="dob" name="dob"><br><br>
+       </div>
+       <div>
+           <input type="submit" value="Register">
+       </div>
+   </form>
+</body>
+</html>

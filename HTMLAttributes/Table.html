@@ -3,41 +3,93 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 6px;
+            
+        }
+    </style>
+
 </head>
-<body>
-    <!--Describing table structure
-        table 
+        <body >
+        <!-- Describing table structure
+        table
+        Table in HTML is defined with the <table > tag.
+        table row:
+        A table row is defined with the <tr > tag.
+        table header:
+        A table header is defined with the <th > tag.
+        table data:
+        A table data/cell is defined with the <td > tag.
+        colspan:
+        The colspan attribute defines the number of columns a cell should span.
+        rowspan:
+        The rowspan attribute defines the number of rows a cell should span.
+        cellpadding:
+        The cellpadding attribute defines the space between the cell wall and the cell content.
+        cellspacing:
+        The cellspacing attribute defines the space between cells.
+        border:
+        The border attribute defines the border of the table.
+        table border:
+        The border attribute of the table tag defines the border of the table.
         -->
-    <table>
-        <tr>
-            <td>Username</td>
-            <td>
-                : <input type="text" id="username" name="username"
-                         placeholder="Enter Username" required maxlength="20" 
-                         size="30" pattern="[A-Za-z0-9]+"
-                         title="Username should only contain letters and numbers.">
-            </td>
-        </tr>
-        <tr>
-            <td>Age</td>
-            <td>
-                : <input type="password" id="password" name="password"
-                         placeholder="Enter Password" required maxlength="20" size="30" 
-                         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
-                         title="Password must contain at least one number,
-                         one uppercase and lowercase letter, and at least 8
-                         or more characters.">
-            </td>
+        <table >
+        <tr >
+        <th > SID</th >
+        <th > NAME</th >
+        <th > AGE</th >
+        </tr >
+        <tr >
+        <td > 1</td >
+        <td > John</td >
+        <td > 18</td >
+        </tr >
+        <tr >
+        <td > 2</td >
+        <td > Smith</td >
+        <td > 21</td >
+        </tr >
+        <tr >
+        <td > 3</td >
+        <td > Mark</td >
+        <td > 25</td >
+        </table >
+        <table align="center" >
+        <tr >
+        <td > Username</td >
+        <td >
+        : <input type="text" id="username" name="username"
+        placeholder="Enter Username" required maxlength="20"
+        size="30" pattern="[A-Za-z0-9]+"
+        title="Username should only contain letters and numbers." >
+        </td >
+        </tr >
+        <tr >
+        <td > Age</td >
+        <td >
+        : <input type="password" id="password" name="password"
+        placeholder="Enter Password" required maxlength="20" size="30"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Password must contain at least one number,
+        one uppercase and lowercase letter, and at least 8
+        or more characters.">
+        </td >
 
-        </tr>
-        <tr>
-            <td></td>
-            <td> <input type="submit" value="Login"></td>
-        </tr>
-    </table>
-    
+        </tr >
+        <tr >
+        <td > </td >
+        <td > <input type="submit" value="Login" > </td >
+        </tr >
+        </table >
 
-    
-   
-</body>
-</html>
+
+
+
+        </body >
+        </html >

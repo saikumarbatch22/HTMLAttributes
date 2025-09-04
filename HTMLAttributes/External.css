@@ -1,0 +1,33 @@
+﻿body {
+    background-color: aqua;
+}
+tr {
+    background-color: lightgrey;
+}
+#second {
+    background-color: yellow;
+}
+
+#third {
+    background-color: red;
+}
+#myrow{
+background-color:blue;
+}
+/*
+    Write css properties to a button similar to subscibre button
+    in youtube.
+    Use background-color, color, border-radius, padding, font-size
+    and border properties.
+
+*/
+.subscribe {
+    background-color: red;
+    color: white;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:100px;
+}

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--CSS Box Model and Layout-->
+    Here is a brief explanation of both concepts:
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, main, section, article, aside,footer {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        header {
+            background-color: #f8f8f8;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        section, article {
+            background-color: #e9e9e9;
+            margin-bottom: 10px;
+        }
+
+        aside {
+            background-color: #d9d9d9;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Layout:
+        HTML has several semantic elements that define differents
+        parts of a web page layout. These elements help structure the content and improve accessibility.
+        1. <header>: Represents the introductory content or a set of navigational links.
+        2. <nav>: Defines a set of navigation links.
+        3. <main>: Specifies the main content of a document.
+        4. <section>: Represents a standalone section of content, which doesn't have a more specific semantic element to represent it.
+        5. <article>: Represents a self-contained piece of content that could be distributed independently.
+        6. <aside>: Represents content that is tangentially related to the content around it, often used for sidebars.
+        7. <footer>: Represents the footer for its nearest sectioning content or sectioning root element.
+        CSS Box Model:
+        The CSS box model describes the rectangular boxes generated for elements in the document tree and consists of:
+        1. Content: The innermost part where text and images appear.
+        2. Padding: The space between the content and the border.
+        3. Border: The edge of the box, surrounding the padding (if any) and content.
+        4. Margin: The outermost space that separates the element from other elements.
+        -->
+    <header>
+        <h1>Website Header</h1>
+        <nav>
+            <a href="LoginPage.html">Home</a> |
+            <a href="LoginPage.html">About</a> |
+            <a href="ListItems.html">Services</a> |
+            <a href="HtmlPage1.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>Welcome to our website! This is the home section.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This section contains information about us.</p>
+        </section>
+        <article>
+            <h2>Latest News</h2>
+            <p>This is an article about the latest news.</p>
+        </article>
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="HTMLContent.html">Related Link 1</a></li>
+                <li><a href="HtmlPage2.html">Related Link 2</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+</html>
