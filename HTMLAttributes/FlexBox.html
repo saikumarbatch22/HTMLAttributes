@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .flex {
+            display: flex;
+            /*flex-direction:column-reverse;*/
+            flex-direction:row;
+          /*  flex-direction:row-reverse;*/
+            background-color: blue;
+            justify-content:center;
+            align-items:center;
+            /*
+                Align items:vertically aligns the flex items when the items do not use
+                all available space on the cross axis.
+                flex-direction:the direction of the flex items inside a flex container.
+            */
+        }
+        .flex > div{
+            background-color:antiquewhite;
+            margin:10px;
+            padding:20px;
+            font-size:30px;
+        }
+        @media(max-width:800px)
+        {
+            .flex{
+                flex-direction:row;
+            }
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Create Flex Container</h1>
+    <div class="flex">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+        <div>Location</div>
+    </div>
+    <p> Flex tag must have parent element </p>
+    
+
+</body>
+</html>

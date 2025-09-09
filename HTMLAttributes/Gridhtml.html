@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .container
+        {
+            display:grid;
+            grid-template-areas:
+                "header header"
+                "menu content"
+                "footer footer";
+            grid-template-columns:1fr 3fr;
+            gap:5px;
+            background-color:aqua;
+            padding:10px;
+        }
+        .container>div{
+            background-color:rgba(255,255,255,0.8);
+            padding:10px;
+        }
+        .container>div.header{
+            grid-area:header;
+            text-align:center;
+        }
+        .container>div.menu{
+            grid-area:menu;
+        }
+        .container>div.content{
+            grid-area:content;
+        }
+        .container>div.footer{
+            grid-area:footer;
+        }
+    </style>
+</head>
+<body>
+    <!--Grid layout:
+        A grid Containter <div> element
+        Grid Item: container-->
+    <p>Grid Layout Module</p>
+    <div class="container">
+        <div class="header">
+            <h2>Heading Tab</h2>
+        </div>
+        <div class="menu">
+            <a href="FlexBox.html">Flex</a>
+            <a href="HTMLContent.html">Html Content</a>
+            <a href="HtmlPage2.html">Main</a>
+
+        </div>
+        <div class="content">
+            <p>
+                Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.
+                To make your document look professionally produced, Word provides header, footer, cover page, and text box designs that complement each other. For example, you can add a matching cover page, header, and sidebar. Click Insert and then choose the elements you want from the different galleries.
+                Themes and styles also help keep your document coordinated. When you click Design and choose a new Theme, the pictures, charts, and SmartArt graphics change to match your new theme. When you apply styles, your headings change to match the new theme.
+                Save time in Word with new buttons that show up where you need them. To change the way a picture fits in your document, click it and a button for layout options appears next to it. When you work on a table, click where you want to add a row or a column, and then click the plus sign.
+                Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device.
+            </p>
+        </div>
+        <div class="footer">
+            <h2>Footer data</h2>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family:'Segoe UI',sans-serif;
+            background:linear-gradient(to right,#00ffff,#808080);
+            color:#333;
+            line-height:1.6;
+            padding:20px;
+        }
+        header
+        {
+            background:radial-gradient(circle,#0077b6,#23e8a);
+            color:white;
+            padding:40px;
+            text-align:center;
+            box-shadow:0 4px 10px rgba(0,0,0,0.3);
+            border-radius:10px;
+            transition:background 0.5s ease;
+        }
+        header:hover{
+            background:radial-gradient(circle,#00b4d8,#0077b6);
+        }
+        h1{
+            font-size:3em;
+            text-shadow:2px 2px 5px rgba(0,0,0,0.2);
+            animation:fadeIn 2s ease-in-out;
+        }
+        nav
+        {
+            margin:20px 0;
+            display:flex;
+            justify-content:center;
+            gap:20px;
+        }
+        nav a
+        {
+            text-decoration:none;
+            color:#0077b6;
+            font-weight:bold;
+            padding:10px 20px;
+            border:2px solid #0077b6;
+            border-radius:5px;
+            transition:all 0.3s ease;
+        }
+        nav a:hover
+        {
+            background-color:#0077b6;
+            color:white;
+            transform:scale(1.1);
+        }
+        section
+        {
+            margin:40px auto;
+            max-width:800px;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 40px 20px rgba(0,0,0,0.1);
+        }
+        section h2{
+            color:#023e8a;
+            margin-bottom:20px;
+            border-bottom:2px solid #0077b6;
+            padding-bottom:10px;
+        }
+        .grid
+        {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:20px;
+
+        }
+        .card
+        {
+            background:#f8f9fa;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+            transition:transform 0.3s ease;
+        }
+        footer{
+            text-align:center;
+            margin-top:50px;
+            font-size:0.9em;
+            color:#555;
+        }
+        @keyframes fadeIn
+        {
+            from{opacity:0;transform:translateY(-20px);}
+            to {opacity:1;transform:translate(0);}
+        }
+
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1>Welcom to New World</h1>
+        <nav>
+            <a href="FlexBox.html">Home</a>
+            <a href="Gridhtml.html">About</a>
+            <a href="HTMLContent.html">Contact</a>
+            <a href="BoxModel.html">Projects</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Highlights</h2>
+        <div class="grid">
+            <div class="card">Heighest Milestone </div>
+            <div class="card">Logic Quiz</div>
+            <div class="card">Home Decor</div>
+            <div class="card">Offers</div>
+
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 My Creations
+    </footer>
+
+</body>
+</html>

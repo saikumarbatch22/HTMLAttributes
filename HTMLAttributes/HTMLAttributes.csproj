@@ -67,25 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Audio\audio-club-edyn-343275.mp3" />
     <Content Include="BoxModel.html" />
     <Content Include="CSSBoxModel.html" />
+    <Content Include="CSSProp.html" />
     <Content Include="External.css" />
     <Content Include="ExternalCss.html" />
+    <Content Include="FlexBox.html" />
+    <Content Include="Gridhtml.html" />
     <Content Include="HTMLContent.html" />
     <Content Include="HtmlLayout.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
     <Content Include="HtmlPage3.html" />
     <Content Include="HtmlPage4.html" />
+    <Content Include="HtmlPage5.html" />
     <Content Include="Images\Rose.jpg" />
     <Content Include="ListItems.html" />
     <Content Include="Login.html" />
     <Content Include="LoginPage.html" />
+    <Content Include="MultiMedia.html" />
     <Content Include="Navigation.html" />
     <Content Include="RegisterStyles.css" />
     <Content Include="Registration.html" />
+    <Content Include="ResponsiveWeb.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Table.html" />
+    <Content Include="Videos\animatedvideo.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
