@@ -88,6 +88,8 @@
     <Content Include="LoginPage.html" />
     <Content Include="MultiMedia.html" />
     <Content Include="Navigation.html" />
+    <Content Include="Portfolio.html" />
+    <Content Include="Portfoliocss.css" />
     <Content Include="RegisterStyles.css" />
     <Content Include="Registration.html" />
     <Content Include="ResponsiveWeb.html" />
