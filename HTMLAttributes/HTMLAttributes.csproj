@@ -82,6 +82,7 @@
     <Content Include="HtmlPage3.html" />
     <Content Include="HtmlPage4.html" />
     <Content Include="HtmlPage5.html" />
+    <Content Include="HtmlPageWithAllTags.html" />
     <Content Include="Images\Rose.jpg" />
     <Content Include="ListItems.html" />
     <Content Include="Login.html" />

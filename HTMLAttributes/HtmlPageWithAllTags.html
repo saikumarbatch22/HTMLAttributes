@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Lets Discuss all HTML Tags-->
+    <meta charset="utf-8" />
+    <meta name="description" content="HTML All Tags" />
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0" />
+    <title>All HTML Tags</title>
+    <style>
+        body {
+            font-family: Arial,sans-serif;
+            margin: 20px;
+        }
+        section{
+            margin-bottom:40px;
+        }
+        h2{
+            color:aquamarine;
+        }
+        table,th,td{
+            border:1px solid #333;
+            border-collapse:collapse;
+            padding:8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML All Tags</h1>
+        <nav>
+            <a href="#text">Text</a> |
+            <a href="#media">Media</a> |
+            <a href="#forms">Forms</a> |
+            <a href="#layout">Layout</a>
+
+        </nav>
+    </header>
+    <section id="text">
+        <h2>Text and Formating Tags</h2>
+        <p>This is a paragraph</p>
+        <strong>Bold Text</strong><br />
+        <em>Italic Text</em><br />
+        <u>Underlined Text</u><br />
+        <mark> Highlighted text</mark><br />
+        <small>Small Text</small><br />
+        <del>Deleted Text</del><br />
+        <ins>Inserted Text</ins><br />
+        <abbr title="HyperTextMarkUpLanguage">HTML</abbr><br />
+        <blockquote cite="https://example.com">This is a blockquote</blockquote><br />
+        <code>console.log("hello world");</code><br />
+        <pre>
+function greet(){
+return "Hello";
+}
+</pre>
+    </section>
+    <!--This section is all about media tags like image,audio and video--> 
+    <section id="media">
+        <h2>Media Tags</h2>
+        <img src="Images/Rose.jpg" alt="Rose Pic" height="300" width="200" /><br />
+        <audio controls style="width:300px;height:400px">
+            <source src="Audio/audio-club-edyn-343275.mp3" type="audio/mp3" />
+            You can play audio..
+        </audio>
+        <video controls width="300" height="400">
+            <source src="Videos/animatedvideo.mp4" type="video/mp4" />
+            Browser can supports video files.
+        </video>
+        <iframe src="https://example.com" width="300" height="200"></iframe>
+    </section>
+    <!--This Section is all about Form Tags-->
+    <section id="forms">
+        <h2>Form Tags</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" /><br /><br />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" ></textarea><br /><br />
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br /><br />
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            <label for="subscribe">Subscribe</label>
+            <input type="radio" id="yes" name="confirm" value="yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="confirm" value="no" />
+            <label for="no">No</label><br /><br />
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <!--This Section is all about Semantic Tags-->
+    <section id="layout">
+        <h2>Layout and Semantic Tags</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is an article section</p>
+        </article>
+        <aside>
+            <p>This is an aside section</p>
+        </aside>
+        <section>
+            <p>This is a nested section</p>
+        </section>
+        <footer>
+            <p>&copy;2025 My HTML </p>
+        </footer>
+
+    </section>
+    <!--This Section is all About List items and tables-->
+    <section>
+        <h2>Lists and Tables</h2>
+        <ul>
+            <li>Unordered Item 1</li>
+            <li>Unordered Item 2</li>
+        </ul>
+        <ol>
+            <li>Ordered Item 1</li>
+            <li>Ordered Item 2</li>
+        </ol>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td>25</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
