@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Complete CSS ShowCase</title>
+    <style>
+        /*Universal*/
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family:'Segoe UI',sans-serif;
+            background-color:#f4f4f4;
+            color:#333;
+            padding:20px;
+        }
+        h1{
+            text-align:center;
+            color:darkblue;
+            margin-bottom:20px;
+            text-shadow:2px 2px #ccc;
+        }
+        /*Flexbox Layout*/
+        .flex-container{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            margin:30px 0;
+        }
+        /*Grid Layout*/
+        .grid-container{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:15px;
+            margin:30px 0;
+
+        }
+        .grid-item{
+            background-color:#d1ecf1;
+            padding:20px;
+            text-align:center;
+            border:1px solid #17a2b8;
+        }
+        /*Positioning*/
+        .relative-box
+        {
+            position:relative;
+            top:10px;
+            left:10px;
+            background-color:#ffeeba;
+            padding:10px;
+        }
+        /*Transitions and Hover Effects*/
+        .hover-box{
+            background-color:#155724;
+            color:white;
+            transform:scale(1.1);
+        }
+        .hover-box:hover{
+            background-color:#155724;
+            color:white;
+            transform:scale(1.1);
+        }
+        /*Animation*/
+        @keyframes fadeIn{
+            from{opacity:0;}
+            to{opacity:1;}
+        }
+        .animated-box
+        {
+            animation:fadeIn 2s ease-in;
+            background-color:#d4edda;
+            padding:20px;
+            margin-top:20px;
+        }
+        /*Pseudo class*/
+        a:hover{
+            color:red;
+            text-decoration:none;
+        }
+        .grid-container
+        {
+            grid-template-columns:1fr;
+        }
+        .box{
+            width:90%;
+        }
+        /*
+            Box Model
+        */
+        .box{
+            width:300px;
+            height:150px;
+            margin:20px auto;
+            padding:20px;
+            border:2px solid #333;
+            background-color:#fff;
+            border-radius:10px;
+            box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+        }
+        /*Typohraphy*/
+        .text
+        {
+            font-size:18px;
+            font-weight:bold;
+            text-align:center;
+            text-decoration:underline;
+            letter-spacing:1px;
+            line-height:1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Complete CSS </h1>
+    <div class="box text">
+        This is a styled box using box model
+
+    </div>
+    <div class="flex-container">
+        <div class="flex-item">Flex 1</div>
+        <div class="flex-item">Flex 2</div>
+        <div class="flex-item">Flex 3</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">Grid 1</div>
+        <div class="grid-item">Grid 2</div>
+        <div class="grid-item">Grid 3</div>
+    </div>
+    <div class="relative-box">Relative Positioned Box</div>
+    <div class="hover-box">Hover Over Me</div>
+    <div class="animated-box">Animated Box</div>
+    <p><a href="#">Hover Over this link</a></p>
+
+</body>
+</html>

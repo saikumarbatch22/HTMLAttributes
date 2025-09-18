@@ -76,7 +76,9 @@
     <Content Include="FlexBox.html" />
     <Content Include="Gridhtml.html" />
     <Content Include="HTMLContent.html" />
+    <Content Include="HtmlCSS.html" />
     <Content Include="HtmlLayout.html" />
+    <Content Include="HtmlLogin.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
     <Content Include="HtmlPage3.html" />
