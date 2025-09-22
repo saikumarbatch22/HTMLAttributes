@@ -75,6 +75,7 @@
     <Content Include="ExternalCss.html" />
     <Content Include="FlexBox.html" />
     <Content Include="Gridhtml.html" />
+    <Content Include="HTMLCodes.html" />
     <Content Include="HTMLContent.html" />
     <Content Include="HtmlCSS.html" />
     <Content Include="HtmlLayout.html" />
@@ -84,7 +85,9 @@
     <Content Include="HtmlPage3.html" />
     <Content Include="HtmlPage4.html" />
     <Content Include="HtmlPage5.html" />
+    <Content Include="HtmlPageCss.html" />
     <Content Include="HtmlPageWithAllTags.html" />
+    <Content Include="HTMLRegistrationWithDesign.html" />
     <Content Include="Images\Rose.jpg" />
     <Content Include="ListItems.html" />
     <Content Include="Login.html" />
@@ -97,6 +100,7 @@
     <Content Include="Registration.html" />
     <Content Include="ResponsiveWeb.html" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet2.css" />
     <Content Include="Table.html" />
     <Content Include="Videos\animatedvideo.mp4" />
     <Content Include="Web.config" />
