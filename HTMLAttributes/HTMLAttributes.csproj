@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABC.html" />
+    <Content Include="ABCStyles.css" />
     <Content Include="Audio\audio-club-edyn-343275.mp3" />
     <Content Include="BoxModel.html" />
     <Content Include="CSSBoxModel.html" />
@@ -80,6 +82,7 @@
     <Content Include="HtmlCSS.html" />
     <Content Include="HtmlLayout.html" />
     <Content Include="HtmlLogin.html" />
+    <Content Include="HtmlPage.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
     <Content Include="HtmlPage3.html" />
@@ -93,12 +96,15 @@
     <Content Include="Login.html" />
     <Content Include="LoginPage.html" />
     <Content Include="MultiMedia.html" />
+    <Content Include="Mypage.css" />
+    <Content Include="Mypage.html" />
     <Content Include="Navigation.html" />
     <Content Include="Portfolio.html" />
     <Content Include="Portfoliocss.css" />
     <Content Include="RegisterStyles.css" />
     <Content Include="Registration.html" />
     <Content Include="ResponsiveWeb.html" />
+    <Content Include="StyleS.css" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
     <Content Include="Table.html" />
