@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Display Java Script Output
+        Using HTML Element  innerHTML or InnerText property
+        document.write() method:It writes directly to the HTML document.
+        window.alert() method:It displays an alert box with a specified message and an OK button.
+        console.log() method:It outputs a message to the web console.
+
+        -->
+    <h1>My First Web Page</h1>
+    <p>Paragraph</p>
+    <p id="new"></p>
+   <p id="hi"></p>
+    <script>
+        document.getElementById("new").innerHTML = "This is my first web page";
+        document.getElementById("hi").innerText = "Welcome to Java Script";
+        document.write("Hello world! This is my first web page using document.write() method.<br>");
+        document.write(10 + 20 + "<br>");
+        window.alert("this is an alert box using window.alert() method");
+        console.log("This is console log message using console.log() method");
+    </script>
+</body>
+</html>

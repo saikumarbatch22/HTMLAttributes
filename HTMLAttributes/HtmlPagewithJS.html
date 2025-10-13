@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+  <!--Here we kept under head section which is internal way of calling java script 
+      now we will place under body section with the  same example--> 
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+            document.getElementById("cssd").style.fontSize = "55px";
+        }
+    </script>
+    <!--Lets write the example using function-->
+    <h2>Lets apply css also by using JAVA SCript</h2>
+    <p id="cssd">We can change the styles by using JAVA Script.</p>
+    <!--<button type="button" onclick="document.getElementById('cssd').style.fontSize='55px'">CSS Change</button>-->
+    <!--<button type="button" onclick="document.getElementById('cssd').style.backgroundColor = 'aqua'">CSS Change</button>-->
+    <button type="button" onclick="myFunction()">Change</button>
+</body>
+</html>
