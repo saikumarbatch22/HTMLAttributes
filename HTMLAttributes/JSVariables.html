@@ -14,7 +14,7 @@
         var name="sai";
         var name="raj"; here re declaration allowed
         name="sai kumar"; here update allowrd
-        console.long(name); will display the name sai kumar
+        console.log(name); will display the name sai kumar
 
         let: Modern,block scoped
         Can be updated, but not re declared in the same scope
@@ -37,7 +37,29 @@
 
         -->
 
-    
+    <p id="total"></p>
+    <script>
+        let x, y, z;
+        x = 100;
+        y = 200;
+        z = x + y;
+        document.getElementById("total").innerHTML = "The value of z is" + z;
+        function testVar() {
+            if (true) {
+                var x = 100;
+
+            }
+            console.log(x);//x is function scoped
+        }
+        function testlet()
+        {
+            if (true) {
+                let y = 20;
+                console.log(y);//x error :y is block scoped.
+            }
+        }
+    </script>
 
 </body>
+
 </html>

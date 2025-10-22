@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--WHat is DOM?
+            The Document Object Model (DOM) represents the structure of a webpage as a
+            tree of objects. JavaScript can interact with this tree to change content,
+            structure, and styling dynamically.
+
+            Common DOM Manipulation Examples
+    1. Accessing Elements
+    const heading = document.getElementById("main-title");
+    const items = document.getElementsByClassName("list-item");
+    const paragraphs = document.getElementsByTagName("p");
+
+
+    2. Changing Content
+    document.getElementById("main-title").innerHTML = "Welcome to DOM!";
+    document.getElementById("main-title").textContent = "Hello DOM!";
+
+
+    3. Changing Styles
+    document.getElementById("main-title").style.color = "blue";
+    document.getElementById("main-title").style.fontSize = "24px";
+
+
+    4. Creating and Adding Elements
+    const newPara = document.createElement("p");
+    newPara.textContent = "This is a new paragraph.";
+    document.body.appendChild(newPara);
+
+
+    5. Removing Elements
+    const oldPara = document.getElementById("old-paragraph");
+    oldPara.remove();
+
+
+    6. Event Handling
+    document.getElementById("click-me").addEventListener("click", function() {
+      alert("Button clicked!");
+    });
+
+
+    7. Form Input Access
+    const name = document.getElementById("name-input").value;
+    console.log("Entered name:", name);
+
+
+        How to access dom elements
+        Method:                       Description                           Example
+        getElementById()              Select an element by its ID           document.getElementById("intro");
+        getElementsBYClassName()      Selects all elements with a given class       document.getElementsByClassName("menu")
+        getElementsBYTagName          Selects all elements with a given tag       document.getElementsByTagName("div");
+        querySelector()               Selects the first element maching a CSS selector  document.querySelector(".highlight")
+        querySelectorAll()            Selects all elements matching a CSS selector      document.querySelectorAll("ulli");
+
+
+
+            -->
+    <p id="main-title">Hello ,all</p>
+    <script>
+        const heading = document.getElementById("main-title");
+        console.log(heading.textContent);
+        const items = document.getElementsByClassName("list-item");
+        const paragraphs = document.getElementsByTagName("p");
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Events: Javascript events are actions or occurrences that happen in the browser,
+        oftern triggered by user interaction or system behaviour.
+        They allows us to make web pages dynamic and responsive.
+        Event           TriggeredBy                 Example use case
+        Click:          user clicks an element      Button click to submita  form
+        mouseover      mouse hovers over an element  Shows tooltip or highlight.
+        keydown        key is pressed                detect shortcut keys.
+        load           page or image finished loading  initalize script after page load.
+        submit         form is submitted                validate form before sending.
+        change          input values changes            update preview or enable button.
+        focus          element gains focus             hightlight input field/
+        blur            element loses focus.           validate field on exit.
+        -->    
+    <script>
+        function showmessage() {
+            alert("Hello ! you have clicked a button");
+        }
+    </script>
+    <button onclick="showmessage()">Click me</button>
+
+    <p onkeypress="highlightText(this)">Hover over me</p>
+    <script>
+        function highlightText(element) {
+            element.style.color = "orange";
+            element.style.fontWeight = "bold";
+
+        }
+    </script>
+
+</body>
+</html>

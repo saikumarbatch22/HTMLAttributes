@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Dubugger: 
+        Debugger keyword tells the browser to stop executing java script at that point and open
+        the developer tools,allowing us to inspect the current state of the program-->
+    <script>
+        function calcuateTotal(price, taxRate) {
+            let tax = price * taxRate;
+            let total = price + tax;
+            debugger//executin will pause here
+            return total;
+            
+        }
+        let finalAmount = calcuateTotal(100, 0.18);
+        document.write("Final amount is:", finalAmount);
+    </script>
+</body>
+</html>

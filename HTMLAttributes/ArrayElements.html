@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Array Object: AN Array is a collection of elements.
+        Evenry element will be representing with one index value.
+        first element will be represented with zero.
+        2nd element represented with one and so on.
+        in Java Script array  is a predefined object.
+        
+        creating user defiend array object:
+        var courses=new array() here array is a predefiend object
+   or   var courses=new array("dotnet","php","c++")
+        
+        Concat():
+        It is a predefined method of array object,using this method we can
+        concatinate one array into another array.
+        Ex:var cousre1=new Array("dotnet","php","c++")
+        var courses2=new Array("SAP","ABAP","FiCo")
+        document.write(course1.concat(course2)+"")
+        
+        sort():
+        using this method we can sort the elements of given array.
+        var courses=new Array("dotnet","php","c++","asp")
+        document.write(courses.sort())
+        
+        Date Object:
+        It is one of the javascript predefiend object(Date())-
+    By default date object will have the current date and time
+
+        If we want to create a user defined date object
+        var mydate=new Date()
+        mydate is a user defiend date object where as
+        Date() is a predefined object.
+        -->
+    <script>
+        var mydate = new Date();
+        document.write(mydate);
+       // document.write(Date())
+        var courses = new Array("DotNet", "PHP", "C++")
+        
+        for (var i = 0; i < courses.length; i++)
+        {
+            document.write(courses[i]+" ,");
+        }
+    </script>
+</body>
+</html>

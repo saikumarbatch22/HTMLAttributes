@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Asynchronous Java Script
+        Asunchornous Java Script allows code to run tasks in the background without
+        blocking the main thread. This means app can stay responsive- handling user input,animations,
+        or other taks -while waiting for things like API responses,timersm or file reads.
+        
+        Javascript is single threaded so without  async bbehaviour,long running tasks like
+        fetching data would freeze the UI.
+        Async code lets you schedule tasks,wait for events and respond to 
+        user actions without delay.
+        
+        Technique                           Description
+        Callbacks                           Functions passed as arguments to be executed after a task
+                                            finishes.
+        Promises                            Objects representing the eventual completion or failure of
+                                            of an async task.
+        async/await                         Syntactic sugar over promises for cleaner,readable async code.
+        setTimeOut/setInterval              Schedule tasks after a delay or repeatedly.
+        Fetch API                           Used to make network requestss asynchonously
+        
+        so we can say promise created: place the order.
+        pending:
+        fulfilled/
+        rejected 
+        why use of promises?
+        avoids callbacks hell(nested callbacks)
+        Makes aync code more readibale and maintainable.
+        works seamlessly with async/await for modern syntax.
+
+        .-->
+
+    <script>
+       
+            //console.log("start");
+            //setTimeout(()=> {
+            //    console.log("This runs after 2 seconds");
+            //}, 2000);
+            //console.log("End");
+
+        function greet(name, callback) {
+            console.log("HI" + name);
+            callback();
+        }
+        function sayBye() {
+            console.log("Bye");
+        }
+        greet("ABC", sayBye);
+        //setTImeoue(Delay Simulation)
+        console.log("Start");
+        setTimeout(() => {
+            console.log("Delayed Message");
+        }, 2000);
+        console.log("End");
+    </script>
+
+</body>
+</html>

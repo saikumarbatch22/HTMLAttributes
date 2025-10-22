@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--JS Classes: Blue print for objects
+        A class in JS is a template for creating objects with shared structure and behaviour.-->
+    <script>
+        class Person {
+            constructor(name, age) {
+                debugger;
+                this.name = name;
+                this.age = age;
+                
+            }
+            greet() {
+                document.write('Name' + this.name);
+            }
+        }
+        let abc = new Person("Krishna", 22);
+        abc.greet();
+
+        //we can create an Employee class and a constructor for id ,name,role
+        //with showdetails method to display his details/
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--string ovject is representing collection of characters and string
+        data should enclose with(" ") double quotes.
+        This string object has couple of properties and methods which we can use
+        when we are working with string.
+
+        Length: length is a predefined member property of string object.
+        This property will return the number of characters with in given string.
+
+        to upper case: it is a predefined member method of string object.
+        this method will convert the given string into upper case.
+
+        -->
+    <p id="demo"></p>
+    <script>
+        var str = "om sai ram";
+        var sln = str.length;
+        document.getElementById("demo").innerHTML = sln;
+    </script>
+
+    <p id="demos"></p>
+    <script>
+
+        var firstname = "hello sai ram";
+        var lastname = firstname.replace("hello", "new");
+        document.getElementById("demos").innerHTML = lastname.toUpperCase();
+    </script>
+    <p id="dem"></p>
+    <script>
+        function myfunction(a, b) {
+            return a - b;
+        }
+        document.getElementById("dem").
+            innerHTML = myfunction(50, 4);
+    </script>
+
+
+</body>
+</html>

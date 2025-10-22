@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function validate(event) {
+            document.getElementById("loginform").addEventListener("submit", function (e) {
+                e.preventDefault();//prevent from submitting.
+                const username = document.getElementById('username').value.trim();
+                const password = document.getElementById('password').value.trim();
+                const errorMesg = document.getElementById('errorMesg');
+
+                let error = [];
+                //username validation
+                if (username === '') {
+                    error.push('Username is required');
+
+                }
+                else if (username.length < 3) {
+                    error.push('Username must be at least 3 Characters');
+
+                }
+                //password validation
+                if (password === '') {
+                    error.push('password is required');
+
+                }
+                else if (password.length < 6) {
+                    error.push('password must be atleast 6 characters');
+                }
+
+                //show errors or proceed
+                if (error.length > 0) {
+                    errorMesg.innerHTML = error.join('<br>');
+                    errorMesg.style.color = 'red';
+                }
+                else {
+                    errorMesg.innerHTML = '';
+                    alert('Login Successful');
+                }
+            });
+        }    
+    </script>
+</head>
+<body>
+    <form id="loginform">
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button type="submit" onclick="validate(event)" >Login</button>
+        <div id="errorMesg"></div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--JS Global Scope
+        var is considered as a global scoper.
+        variables declared with the var keyword can not have
+        block scope/
+       Variables declared with var inside a {} block can be accessed from 
+        outside the block. where as varibales defiend with let cannot be redeclared.
+        we cannot redeclare a varibale declared with let.
+        ex::
+        let a="rajesh";
+        let a=10;
+        so with var can be redeclared.
+        var x="ABC";
+        var a=20;
+        
+        SO we can say 
+        let and const have block scope.
+        let and const can not be redeclared.
+        let and const must be declared before use.
+        let and const does not bind to this.
+        let and const are not hoisted.
+
+        where as 
+        var does not have to be declared.
+        var  binds to this.
+        var is hoisted.
+
+        browser support let and const keywords.
+
+        Not let us write all the data types using variables.
+        --> 
+    <p id="demo"></p>
+    <script>
+        const pi = 3.14;
+        let person = "Ramu";
+        let details = "Engineer";
+        document.getElementById("demo").innerHTML = pi + "<br>" + person + "<br>" + details;
+    </script>
+
+</body>
+</html>

@@ -15,6 +15,20 @@
 <body>
     <form id="form1" runat="server">
         <div>
+           <%-- Events
+               An event is a reaction for some action.
+               For every control we will have some collection of events.
+               An event will not execute by default, it will 
+               execute for some action.
+               When user will do some action concern event will execute or 
+               fire that is called event firing or event executing.
+
+               Click event:
+               This event will execute when user will  click the concern button.
+               syntax:
+               onclick=<function name>
+         here on clik is event and function name     event handler
+               --%>
             <table align="left
                 ">
                 <tr>

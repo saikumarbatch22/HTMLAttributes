@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--JS Helper functions:
+        Let see some string helpers--> 
+    <script>
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+
+        //convert to title case
+        function toTitleCase(str) {
+            return str.replace(/\w\S*/g, txt =>
+                txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+            );
+
+        }
+
+    </script>
+
+</body>
+</html>

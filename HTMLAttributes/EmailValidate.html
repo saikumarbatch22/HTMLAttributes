@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        function validateEmail(email) {
+            const pattern = /[\s@]+@[\s@]+$;
+            return pattern.test(email);
+        }
+        //in case if we want to validate a phone number
+        function validatePhone(phone) {
+            const pattern = /\d{10}$;
+            return pattern.test(phone);
+
+        }
+        //incase if want to usage
+        const phone = document.getElementById("phone").value;
+        if (!validatePhone(phone)) {
+            alert("Enter a valid 10-digit mobile number");
+
+            //if checkbox validation
+            const termsAccepted = document.getElementById("terms").checked;
+            if (!termsAccepted) {
+                alert("Must accept terms and condition");
+            }
+
+            //dropdown selection.
+            const country = document.getElementById("country").value;
+            if (country === '') {
+                alert("please select your country");
+            }
+        }
+
+        //usage can be like this
+        const email = document.getElementById("email").value;
+        if (!validateEmail(email)) {
+            alert('Please enter a valid Email address');
+        }
+       
+    </script>
+    <input type="text" id="email" placeholder="Email" />
+    <button type="submit" ></button>
+
+</body>
+</html>
